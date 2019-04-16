@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Home Page</title>
+	<head>
+	
+	<body>
+	
+		<h1>Welcome to my Sleep Health Website</h1>
+		
+		<script>
+		function sleepHours(sh, age, r)
+		{
+			if ((sh < 8 && age > 40) || (sh < 6 && age <= 40))	
+			{
+			document.write("Sleep Deprived!");
+			}
+			else
+			{
+			document.write("Healthy!");
+			}
+
+			if (r.toLowerCase() == "america")
+			{
+			alert("87% of American High School Students are Sleep Deprived")
+			}
+		
+		}
+		
+		sleepHours(10, 44, "America")
+		</script>
+	</body>
+
+
+</html>
